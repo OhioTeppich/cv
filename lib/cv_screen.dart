@@ -79,6 +79,9 @@ class _CvScreenState extends State<CvScreen> {
                         color: Colors.blue,
                         height: 300,
                         width: 600,
+                        child: const Center(
+                          child: Text('Christian Maciosek'),
+                        ),
                       ),
                     ),
                     showMouseContainer

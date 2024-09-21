@@ -10,8 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: CvScreen(),
+    return MaterialApp(
+      theme: ThemeData(fontFamily: 'MaximaNouva'),
+      home: const CvScreen(),
     );
   }
 }
