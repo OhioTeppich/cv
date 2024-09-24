@@ -1,4 +1,4 @@
-import 'package:cv/cv_screen.dart';
+import 'package:cv/presentation/screen/cv_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

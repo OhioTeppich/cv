@@ -75,14 +75,14 @@ class _MetaballShapesPageState extends State<MetaballShapesPage> {
     List<MetaballCircle> newCircles = [];
 
     for (var circle in circles) {
-      bool _tapped = circle.isTapped(canvasSize, dragPosition1);
+      bool tapped = circle.isTapped(canvasSize, dragPosition1);
 
       newCircles.add(
         MetaballCircle(
           position: circle.position,
           radius: circle.radius,
           color: circle.color,
-          isSelected: _tapped,
+          isSelected: tapped,
         ),
       );
     }
@@ -146,14 +146,14 @@ class _MetaballShapesPageState extends State<MetaballShapesPage> {
     List<MetaballCircle> newCircles = [];
 
     for (var circle in circles2) {
-      bool _tapped = circle.isTapped(canvasSize, dragPosition1);
+      bool tapped = circle.isTapped(canvasSize, dragPosition1);
 
       newCircles.add(
         MetaballCircle(
           position: circle.position,
           radius: circle.radius,
           color: circle.color,
-          isSelected: _tapped,
+          isSelected: tapped,
         ),
       );
     }

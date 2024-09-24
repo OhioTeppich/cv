@@ -15,6 +15,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  url_launcher: ^6.3.0
 
 dev_dependencies:
   flutter_test:
@@ -30,16 +32,32 @@ flutter:
     - assets/images/
 
   fonts:
-    - family: MaximaNouva
+    - family: MaximaNouvaBold
       fonts:
         - asset: assets/fonts/MaximaNouva-Bold.otf
+    - family: MaximaNouvaBoldItalic
+      fonts:
         - asset: assets/fonts/MaximaNouva-BoldItalic.otf
+    - family: MaximaNouvaExtraBold
+      fonts:
         - asset: assets/fonts/MaximaNouva-ExtraBold.otf
+    - family: MaximaNouvaExtraBoldItalic
+      fonts:
         - asset: assets/fonts/MaximaNouva-ExtraBoldItalic.otf
+    - family: MaximaNouvaItalic
+      fonts:
         - asset: assets/fonts/MaximaNouva-Italic.otf
+    - family: MaximaNouvaRegular
+      fonts:
         - asset: assets/fonts/MaximaNouva-Regular.otf
+    - family: MaximaNouvaSemiBold
+      fonts:
         - asset: assets/fonts/MaximaNouva-SemiBold.otf
+    - family: MaximaNouvaThin
+      fonts:
         - asset: assets/fonts/MaximaNouva-Thin.otf
+    - family: MaximaNouvaThinItalic
+      fonts:
         - asset: assets/fonts/MaximaNouva-ThinItalic.otf
 
   #   - family: Schyler
